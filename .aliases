@@ -20,7 +20,7 @@ alias apachestop='sudo /usr/local/Cellar/apache24/2.4.4/bin/apachectl stop'
 # be nice
 alias please=sudo
 alias hosts='sudo $EDITOR /etc/hosts'
-alias vhosts='sudo $EDITOR /Users/mw/Sites/conf/httpd-vhosts.conf'
+alias vhosts='$EDITOR /Users/mw/Sites/conf/httpd-vhosts.conf'
 
 # handy things
 #alias bunyip='node ~/code/bunyip/cli.js'
