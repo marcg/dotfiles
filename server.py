@@ -4,6 +4,7 @@ import webbrowser
 import sys
 import BaseHTTPServer
 from SimpleHTTPServer import SimpleHTTPRequestHandler
+import time
 
 
 HandlerClass = SimpleHTTPRequestHandler
@@ -26,7 +27,8 @@ else:
      #httpd.serve_forever()
 
 # open a public URL, in this case, the webbrowser docs
-url = 'http://localhost:' + sa[1]
-webbrowser.open(url, new=new)
-httpd.serve_forever()
+url = 'http://localhost:' + str(sa[1])
 
+webbrowser.open(url, new=1, autoraise=True)
+
+httpd.serve_forever()
