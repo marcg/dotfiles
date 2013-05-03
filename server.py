@@ -11,22 +11,20 @@ HandlerClass = SimpleHTTPRequestHandler
 ServerClass  = BaseHTTPServer.HTTPServer
 Protocol     = "HTTP/1.0"
 
-new = 2
-
 if sys.argv[1:]:
       port = int(sys.argv[1])
 else:
       port = 9000
-      server_address = ('127.0.0.1', port)
 
-      HandlerClass.protocol_version = Protocol
-      httpd = ServerClass(server_address, HandlerClass)
+server_address = ('127.0.0.1', port)
 
-      sa = httpd.socket.getsockname()
-      print "Serving HTTP on", sa[0], "port", sa[1], "..."
-     #httpd.serve_forever()
+HandlerClass.protocol_version = Protocol
+httpd = ServerClass(server_address, HandlerClass)
 
-# open a public URL, in this case, the webbrowser docs
+sa = httpd.socket.getsockname()
+
+print "Serving HTTP on", sa[0], "port", sa[1], "..."
+
 url = 'http://localhost:' + str(sa[1])
 
 webbrowser.open(url, new=1, autoraise=True)
