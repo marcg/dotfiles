@@ -14,6 +14,8 @@ alias s3='open -a "Sublime Text"'
 #ln -s "/Applications/Sublime Text 2.app/Contents/SharedSupport/bin/subl" ~/bin/s2
 #ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" ~/bin/s3
 
+alias cl='clear'
+
 alias apache='sudo /usr/local/Cellar/apache24/2.4.4/bin/apachectl graceful'
 alias apachestop='sudo /usr/local/Cellar/apache24/2.4.4/bin/apachectl stop'
 
