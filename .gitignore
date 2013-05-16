@@ -22,7 +22,8 @@ Public/
 Sites/
 github/
 .Trash/
-.vim/
+.vim/*
+.vim/.netrwhist
 .receitanet/
 VirtualBox VMs/
 dpd.log
