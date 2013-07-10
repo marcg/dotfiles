@@ -19,4 +19,12 @@ export HISTIGNORE="ls:ls *:cd:cd -:pwd;exit:date:* --help"
 export PATH=$(brew --prefix coreutils)/libexec/gnubin:$PATH
 export PATH=/usr/local/share/npm/bin:$PATH
 
+# brew
+export PATH=/usr/local/sbin:$PATH
+
+# rubyenv
+export RBENV_ROOT=/usr/local/var/rbenv
+if which rbenv > /dev/null; then eval "$(rbenv init -)"; fi
+
+
 export NODE_PATH="/usr/local/share/npm/lib/node_modules"

@@ -4,12 +4,21 @@
 .adobe/
 .bash_history
 .dropbox/
+.gem/
+.ievms/
 .mysql_history
 .npm/
+.node-gyp/
+.php_history
 .pearrc
+.receitanet/
 .rnd
 .ssh/
+.subversion/
 .viminfo
+.vim/*
+.vim/.netrwhist
+.Trash/
 Desktop/
 Documents/
 Downloads/
@@ -21,9 +30,5 @@ Pictures/
 Public/
 Sites/
 github/
-.Trash/
-.vim/*
-.vim/.netrwhist
-.receitanet/
 VirtualBox VMs/
 dpd.log
