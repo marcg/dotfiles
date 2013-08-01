@@ -3,6 +3,8 @@
 .DS_Store
 .adobe/
 .bash_history
+.cache/
+.config/
 .dropbox/
 .gem/
 .ievms/

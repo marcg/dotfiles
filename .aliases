@@ -134,5 +134,6 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 # Fix awake damn flicker
 alias fixflicker="sudo pmset -g hibernationmode 0"
 
-# sshs
+# ssh
 alias dz="ssh draftzen@draftzen.com"
+alias udv="ssh root@83.125.21.66"
