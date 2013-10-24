@@ -45,3 +45,5 @@
 [user]
 	name = Mauricio Wolff
 	email = m@bitbonsai.com
+[push]
+	default = simple
