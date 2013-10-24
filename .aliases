@@ -16,8 +16,8 @@ alias s3='open -a "Sublime Text"'
 
 alias cl='clear'
 
-alias apache='sudo /usr/local/Cellar/apache24/2.4.4/bin/apachectl graceful'
-alias apachestop='sudo /usr/local/Cellar/apache24/2.4.4/bin/apachectl stop'
+alias apache='sudo /usr/local/Cellar/apache24/2.4.6/bin/apachectl graceful'
+alias apachestop='sudo /usr/local/Cellar/apache24/2.4.6/bin/apachectl stop'
 
 # be nice
 alias please=sudo
