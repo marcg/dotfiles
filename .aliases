@@ -137,3 +137,6 @@ alias fixflicker="sudo pmset -g hibernationmode 0"
 # ssh
 alias dz="ssh draftzen@draftzen.com"
 alias udv="ssh root@83.125.21.66"
+
+alias use_php54="brew unlink php55 && brew unlink php54 && brew link php54"
+alias use_php55="brew unlink php54 && brew unlink php55 && brew link php55"
