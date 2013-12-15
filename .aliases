@@ -79,7 +79,7 @@ alias ips="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 alias whois="whois -h whois-servers.net"
 
 # Flush Directory Service cache
-alias flush="dscacheutil -flushcache"
+alias flush="dscacheutil -flushcache; sudo killall -HUP mDNSResponder"
 
 # Super simple webserver at current dir
 alias server="python ~/server.py"
