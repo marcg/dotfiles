@@ -16,13 +16,15 @@ alias s3='open -a "Sublime Text"'
 
 alias cl='clear'
 
-alias apache='sudo /usr/local/Cellar/apache24/2.4.6/bin/apachectl graceful'
-alias apachestop='sudo /usr/local/Cellar/apache24/2.4.6/bin/apachectl stop'
+alias apache='sudo /usr/local/Cellar/apache24/2.4.7/bin/apachectl graceful'
+alias apachestop='sudo /usr/local/Cellar/apache24/2.4.7/bin/apachectl stop'
 
 # be nice
 alias please=sudo
+
 alias hosts='sudo $EDITOR /etc/hosts'
 alias vhosts='$EDITOR /Users/mw/Sites/conf/httpd-vhosts.conf'
+alias apacheconf='sudo vi /usr/local/etc/apache2/httpd.conf'
 
 # handy things
 #alias bunyip='node ~/code/bunyip/cli.js'
