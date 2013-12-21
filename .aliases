@@ -28,7 +28,8 @@ alias apacheconf='sudo vi /usr/local/etc/apache2/httpd.conf'
 
 # handy things
 #alias bunyip='node ~/code/bunyip/cli.js'
-#alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
+alias spotify="osascript ~/code/SpotifyControl/SpotifyControl.scpt"
+alias grab='webkit2png'
 
 # Mail cleanup
 alias cleanmail="sqlite3 ~/Library/Mail/Envelope\ Index vacuum"
