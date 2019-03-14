@@ -137,9 +137,11 @@ alias hax="growlnotify -a 'Activity Monitor' 'System error' -m 'WTF R U DOIN'"
 # Fix awake damn flicker
 alias fixflicker="sudo pmset -g hibernationmode 0"
 
-# ssh
-alias dz="ssh draftzen@draftzen.com"
-alias udv="ssh root@83.125.21.66"
 
-alias use_php54="brew unlink php55 && brew unlink php54 && brew link php54"
-alias use_php55="brew unlink php54 && brew unlink php55 && brew link php55"
+# mg adds
+alias showfiles='defaults write com.apple.finder AppleShowAllFiles YES;
+killall Finder /System/Library/CoreServices/Finder.app'
+
+alias hidefiles='defaults write com.apple.finder AppleShowAllFiles NO;
+killall Finder /System/Library/CoreServices/Finder.app'
+
